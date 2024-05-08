@@ -1,9 +1,9 @@
 import { footerSectionData } from '@/data/layout/footer/v1';
-import { ImageProps, LinkProps, SectionProps } from '@/src/common-types';
+import {  LinkProps, SectionProps } from '@/src/common-types';
 import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
 import { cn } from '@/src/utils/shadcn';
-import Image from 'next/image';
+//import Image from 'next/image';
 import { BrandLogo } from 'src/layout/brand-logo';
 import {
   FaChevronRight,
@@ -11,7 +11,7 @@ import {
   FaPaperPlane,
   FaPhone,
 } from 'react-icons/fa6';
-import { FaCalendarDays } from 'react-icons/fa6';
+//import { FaCalendarDays } from 'react-icons/fa6';
 
 
 interface SocialLinkProps {
@@ -168,47 +168,6 @@ export function Footer({ className }: SectionProps) {
                 </li>
               </ul>
             </div>
-
-            {/* Column three  */}
-            {/*<div data-aos="fade-up" data-aos-delay="800">
-              <h3 className={titleClasses}>{columnThree.title}</h3>
-              {columnThree.blogs && columnThree.blogs.length > 0 && (
-                <div className="grid gap-6">
-                  {columnThree.blogs.map((blog, index) => (
-                    <article
-                      key={index}
-                      className="group flex items-center gap-4 text-accent-800  dark:text-white"
-                    >
-                      <div className="flex-none overflow-hidden rounded-5">
-                        <Image
-                          {...blog.image}
-                          alt={blog.image.alt}
-                          width={80}
-                          height={80}
-                          className="object-cover transition-transform duration-700 group-hover:scale-105"
-                        />
-                      </div>
-                      <div>
-                        <p className="flex items-center gap-2.5 dark:text-body">
-                          <span className="text-primary">
-                            <FaCalendarDays />
-                          </span>
-                          <span>{blog.date}</span>
-                        </p>
-                        <h4 className="text-md font-bold leading-normal">
-                          <CustomLink
-                            href={blog.slug}
-                            className="transition-colors duration-300 hover:text-primary"
-                          >
-                            {blog.title}
-                          </CustomLink>
-                        </h4>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              )}
-            </div>*/}
           </div>
         </Container>
       </div>
