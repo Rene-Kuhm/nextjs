@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Next.js
+/.next/
+/.vercel/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
