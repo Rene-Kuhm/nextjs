@@ -5,7 +5,7 @@ import { SectionHeading } from '@/src/components/section-heading';
 import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
 import Image from 'next/image';
 
-import patternOne from 'public/assets/images/about/pattern-1.png';
+import patternOne from 'public/assets/images/about/pattern-1.webp';
 
 export interface AboutSectionProps {
   images: {

@@ -4,7 +4,7 @@ export const heroData: HeroProps = {
   items: [
     {
       image: {
-        src: '/assets/images/hero/hero-1.jpg',
+        src: '/assets/images/hero/hero-1.webp',
         alt: 'hero 1',
       },
       title: 'Innovando Tu Futuro Digital',
@@ -15,7 +15,7 @@ export const heroData: HeroProps = {
     },
     {
       image: {
-        src: '/assets/images/hero/hero-11.jpg',
+        src: '/assets/images/hero/hero-11.webp',
         alt: 'hero 1',
       },
       title: 'Transformando Ideas en Realidad',
@@ -26,7 +26,7 @@ export const heroData: HeroProps = {
     },
     {
       image: {
-        src: '/assets/images/hero/hero-12.jpg',
+        src: '/assets/images/hero/hero-12.webp',
         alt: 'hero 1',
       },
       title: 'Diseñamos Experiencias Digitales',

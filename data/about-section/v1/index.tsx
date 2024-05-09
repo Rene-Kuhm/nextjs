@@ -34,25 +34,25 @@ function Icon2() {
 export const aboutSectionData: AboutSectionProps = {
   images: {
     image1: {
-      src: '/assets/images/about/about-1.png',
+      src: '/assets/images/about/about-1.webp',
       alt: 'about one',
       width: 195,
       height: 132,
     },
     image2: {
-      src: '/assets/images/about/about-2.png',
+      src: '/assets/images/about/about-2.webp',
       alt: 'about two',
       width: 312,
       height: 304,
     },
     image3: {
-      src: '/assets/images/about/about-3.png',
+      src: '/assets/images/about/about-3.webp',
       alt: 'about three',
       width: 250,
       height: 265,
     },
     image4: {
-      src: '/assets/images/about/about-4.png',
+      src: '/assets/images/about/about-4.webp',
       alt: 'about four',
       width: 250,
       height: 265,
