@@ -5,8 +5,8 @@ import { TeamSection } from '@/src/sections/team/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Team',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'TDP | Team',
+  description: 'Tecnodespegue - IT Solutions and Services React Nextjs FullStack Developer',
 };
 
 export default function Page() {

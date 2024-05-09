@@ -6,8 +6,8 @@ import { PricingSection } from '@/src/sections/pricing/version-1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Pricing',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'TDP | Pricing',
+  description: 'Tecnodespegue - IT Solutions and Services React Nextjs FullStack Developer',
 };
 
 export default function Page() {
