@@ -1,4 +1,5 @@
 const { fontFamily } = require('tailwindcss/defaultTheme');
+import { Variable } from 'lucide-react';
 import { BREAKPOINTS } from './src/themes/interface';
 
 /** @type {import('tailwindcss').Config} */
@@ -174,5 +175,15 @@ module.exports = {
       },
     },
   },
+  theme: {
+    extend: {
+      colors: {
+        'accent-800': '#nuevoColor', // reemplaza '#nuevoColor' con el nuevo color que proporciona suficiente contraste
+        'accent-900': '#nuevoColor', // reemplaza '#nuevoColor' con el nuevo color que proporciona suficiente contraste
+        body: '#nuevoColor', // reemplaza '#nuevoColor' con el nuevo color que proporciona suficien
+      },
+    },
+  },
+  Variants: {},
   plugins: [require('tailwindcss-animate')],
 };
