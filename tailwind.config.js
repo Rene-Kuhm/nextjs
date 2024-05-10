@@ -178,10 +178,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-800': '#nuevoColor', // reemplaza '#nuevoColor' con el nuevo color que proporciona suficiente contraste
-        'accent-900': '#nuevoColor', // reemplaza '#nuevoColor' con el nuevo color que proporciona suficiente contraste
-        'accent-700': '#nuevoColor', // reemplaza '#nuevoColor' con el nuevo color que deseas
-        body: '#nuevoColor', // reemplaza '#nuevoColor' con el nuevo color que proporciona suficien
+       
       },
     },
   },
