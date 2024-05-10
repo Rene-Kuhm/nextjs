@@ -5,6 +5,7 @@ const nextConfig = {
     },
     webpack: (config, { isServer }) => {
       if (!isServer) {
+        config.devtool = 'source-map';
         config.optimization.minimize = true; // Minimiza el código en producción
         config.optimization.splitChunks = {
           cacheGroups: {
