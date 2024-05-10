@@ -175,13 +175,6 @@ module.exports = {
       },
     },
   },
-  theme: {
-    extend: {
-      colors: {
-       
-      },
-    },
-  },
-  Variants: {},
+  
   plugins: [require('tailwindcss-animate')],
 };
