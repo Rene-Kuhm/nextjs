@@ -15,7 +15,7 @@ export function BrandLogo() {
         placeholder="blur"
         blurDataURL={logoLight.blurDataURL}
         alt={`${process.env.NEXT_PUBLIC_SITE_NAME} brand logo`}
-        sizes="100vw"
+        sizes="(max-width: 640px) 50vw, 25vw" //100vw tenia colocado anteriormente 
         priority
       />
       <Image
@@ -26,7 +26,7 @@ export function BrandLogo() {
         placeholder="blur"
         blurDataURL={logoDark.blurDataURL}
         alt={`${process.env.NEXT_PUBLIC_SITE_NAME} brand logo`}
-        sizes="100vw"
+        sizes="(max-width: 640px) 50vw, 25vw" //100vw tenia colocado anteriormente
         priority
       />
     </CustomLink>

@@ -1,5 +1,5 @@
 const { fontFamily } = require('tailwindcss/defaultTheme');
-import { Variable } from 'lucide-react';
+//import { Variable } from 'lucide-react';
 import { BREAKPOINTS } from './src/themes/interface';
 
 /** @type {import('tailwindcss').Config} */
