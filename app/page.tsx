@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Metadata } from 'next';
 import { Footer } from '@/src/layout/footer/v1';
 import { MainHeader } from '@/src/layout/header';
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
+      <Head>
+        <link rel='icon' href='/favicon.ico'/>
+      </Head>
       <MainHeader version="1" />
       <Hero />
       <ServiceSection className="!pb-0" {...serviceSectionData} />
@@ -38,3 +42,4 @@ export default function Page() {
     </>
   );
 }
+
