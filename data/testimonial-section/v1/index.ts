@@ -9,8 +9,8 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-1.jpg',
-          alt: 'Jane Cooper',
+          src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/acbc58b2-e1ba-4aba-cd82-51f099fb4d00/public',
+          alt: 'Carlos Rodríguez',
         },
         name: 'Carlos Rodríguez',
         about: 'Experto en Seguridad Informática',
@@ -22,8 +22,8 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-2.jpg',
-          alt: 'Robert Fox',
+          src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/6ed7190e-50a4-42ae-071c-4f14f176c300/public',
+          alt: 'Alejandro Martínez',
         },
         name: 'Alejandro Martínez',
         about: 'Consultor de Transformación Digital',
@@ -35,8 +35,8 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-11.jpeg',
-          alt: 'April Cabrera',
+          src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/27d0d53e-6e9c-43b1-0071-5e7c05bae400/public',
+          alt: 'María Fernández',
         },
         name: 'María Fernández',
         about: 'Especialista en Desarrollo Web',
@@ -48,8 +48,8 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-12.jpeg',
-          alt: 'Kevin Martin',
+          src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/6f947a9f-d673-41f2-2e91-04991fe4d800/public',
+          alt: 'Pablo Navarro',
         },
         name: 'Pablo Navarro',
         about: 'Analista de Datos',
@@ -61,8 +61,8 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-13.jpeg',
-          alt: 'Jada Christian',
+          src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/b6a45cdf-6c9e-4fce-c7a7-2bd5ef757000/public',
+          alt: 'Juan García',
         },
         name: 'Juan García',
         about: 'Desarrollador Full Stack',
@@ -74,8 +74,8 @@ export const testimonialSectionData: TestimonialSectionProps = {
     {
       person: {
         image: {
-          src: '/assets/images/testimonial/person-14.jpeg',
-          alt: 'Kevin Deen',
+          src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/d76ceaf1-eb6e-4535-6476-6644b3c2a800/public',
+          alt: 'Adrian Morales',
         },
         name: 'Adrian Morales',
         about: 'Especialista en Experiencia del Cliente',
