@@ -117,3 +117,14 @@ SOFTWARE.
 ## Autores
 - [René Kuhm](https://github.com/Rene-Kuhm)
 </details>
+
+## 🛠️ Herramientas usadas
+<details>
+<summary>🛠️ Herramientas usadas</summary>
+
+- [Next.js](https://nextjs.org/): Framework de React para el desarrollo de aplicaciones web eficientes y escalables.
+- [Node.js](https://nodejs.org/): Entorno de ejecución de JavaScript del lado del servidor.
+- [MongoDB](https://www.mongodb.com/): Base de datos NoSQL utilizada para almacenar y recuperar datos.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Lenguaje de estilo utilizado para diseñar y estilizar la aplicación.
+
+</details>
