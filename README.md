@@ -131,7 +131,7 @@ SOFTWARE.
 
 
 # 📘 Estructura del proyecto app y src
-
+```plaintext
 app
 ├── about
 │  └── page.tsx
@@ -161,7 +161,7 @@ app
 └── page.tsx
 
 # src
-
+```plaintext
 src
 ├── common-types
 │  └── index.ts
