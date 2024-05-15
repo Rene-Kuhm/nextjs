@@ -128,3 +128,263 @@ SOFTWARE.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Lenguaje de estilo utilizado para diseñar y estilizar la aplicación.
 
 </details>
+
+
+# 📘 Estructura del proyecto app y src
+
+app
+├── about
+│  └── page.tsx
+├── contact
+│  └── page.tsx
+├── faq
+│  └── page.tsx
+├── pricing
+│  └── page.tsx
+├── project
+│  ├── single
+│  │  └── page.tsx
+│  └── page.tsx
+├── services
+│  ├── single
+│  │  └── page.tsx
+│  └── page.tsx
+├── team
+│  └── page.tsx
+├── testimonial
+│  └── page.tsx
+├── .DS_Store
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+├── not-found.tsx
+└── page.tsx
+
+# src
+
+src
+├── common-types
+│  └── index.ts
+├── components
+│  ├── button
+│  │  └── index.tsx
+│  ├── cards
+│  │  ├── blog
+│  │  │  ├── v1
+│  │  │  │  └── index.tsx
+│  │  │  └── v2
+│  │  │     └── index.tsx
+│  │  ├── pricing
+│  │  │  ├── v1
+│  │  │  │  └── index.tsx
+│  │  │  └── v2
+│  │  │     └── index.tsx
+│  │  ├── project
+│  │  │  ├── v1
+│  │  │  │  └── index.tsx
+│  │  │  └── v2
+│  │  │     └── index.tsx
+│  │  ├── service
+│  │  │  ├── v1
+│  │  │  │  └── index.tsx
+│  │  │  └── v2
+│  │  │     └── index.tsx
+│  │  ├── stat
+│  │  │  ├── v1
+│  │  │  │  └── index.tsx
+│  │  │  └── v2
+│  │  │     └── index.tsx
+│  │  ├── team
+│  │  │  ├── v1
+│  │  │  │  ├── index.tsx
+│  │  │  │  └── styles.module.css
+│  │  │  └── v2
+│  │  │     └── index.tsx
+│  │  └── testimonial
+│  │     ├── rating
+│  │     │  └── index.tsx
+│  │     ├── v1
+│  │     │  └── index.tsx
+│  │     └── v2
+│  │        └── index.tsx
+│  ├── carousel
+│  │  ├── sub-components
+│  │  │  ├── item
+│  │  │  │  └── index.tsx
+│  │  │  ├── navigation
+│  │  │  │  ├── index.tsx
+│  │  │  │  └── interface.tsx
+│  │  │  ├── pagination
+│  │  │  │  ├── index.tsx
+│  │  │  │  └── interface.ts
+│  │  │  └── progress
+│  │  │     ├── index.tsx
+│  │  │     └── interface.ts
+│  │  ├── index.tsx
+│  │  ├── interface.ts
+│  │  └── utils.ts
+│  ├── container
+│  │  ├── container.module.css
+│  │  ├── index.tsx
+│  │  └── interface.ts
+│  ├── counter
+│  │  └── index.tsx
+│  ├── custom-link
+│  │  ├── index.tsx
+│  │  └── interface.ts
+│  ├── inputs
+│  │  ├── common
+│  │  │  └── styles
+│  │  │     └── index.ts
+│  │  ├── text-input
+│  │  │  └── index.tsx
+│  │  └── textarea-input
+│  │     └── index.tsx
+│  ├── mode-toggle
+│  │  └── index.tsx
+│  ├── scroll-to-top
+│  │  └── index.tsx
+│  ├── section-heading
+│  │  ├── index.tsx
+│  │  └── interface.ts
+│  ├── theme-provider
+│  │  └── index.tsx
+│  ├── ui
+│  │  ├── accordion.tsx
+│  │  ├── dropdown-menu.tsx
+│  │  ├── scroll-area.tsx
+│  │  └── sheet.tsx
+│  └── video-player
+│     ├── index.tsx
+│     └── video-player.module.css
+├── hooks
+│  └── dom-ready
+│     └── index.tsx
+├── layout
+│  ├── brand-logo
+│  │  └── index.tsx
+│  ├── footer
+│  │  └── v1
+│  │     └── index.tsx
+│  └── header
+│     ├── desktop
+│     │  ├── common
+│     │  │  └── navigation
+│     │  │     └── index.tsx
+│     │  ├── v1
+│     │  │  ├── contact-box
+│     │  │  │  └── index.tsx
+│     │  │  └── index.tsx
+│     │  └── v2
+│     │     ├── off-canvas
+│     │     │  ├── form
+│     │     │  │  ├── server
+│     │     │  │  │  └── contact-us-form-submit.ts
+│     │     │  │  └── index.tsx
+│     │     │  └── index.tsx
+│     │     ├── search-modal
+│     │     │  └── index.tsx
+│     │     ├── header.module.css
+│     │     └── index.tsx
+│     ├── mobile
+│     │  ├── navigation
+│     │  │  └── index.tsx
+│     │  ├── off-canvas
+│     │  │  └── index.tsx
+│     │  ├── index copy.tsx
+│     │  ├── index.tsx
+│     │  └── mobile-header.module.css
+│     ├── utils
+│     │  └── use-sticky-header
+│     │     └── index.tsx
+│     └── index.tsx
+├── sections
+│  ├── about
+│  │  └── v1
+│  │     └── index.tsx
+│  ├── contact
+│  │  ├── v1
+│  │  │  ├── form
+│  │  │  │  ├── server
+│  │  │  │  │  └── contact-us-form-submit.ts
+│  │  │  │  └── index.tsx
+│  │  │  └── index.tsx
+│  │  └── v2
+│  │     ├── form
+│  │     │  ├── server
+│  │     │  │  └── contact-us-form-submit.ts
+│  │     │  └── index.tsx
+│  │     └── index.tsx
+│  ├── cta
+│  │  ├── v1
+│  │  │  └── index.tsx
+│  │  └── v2
+│  │     └── index.tsx
+│  ├── faq
+│  │  └── index.tsx
+│  ├── hero
+│  │  ├── v1
+│  │  │  ├── shapes
+│  │  │  │  └── index.tsx
+│  │  │  ├── hero.module.css
+│  │  │  ├── index copy.tsx
+│  │  │  └── index.tsx
+│  │  ├── v2
+│  │  │  └── index.tsx
+│  │  └── v3
+│  │     └── index.tsx
+│  ├── map-section
+│  │  └── index.tsx
+│  ├── pricing
+│  │  ├── version-1
+│  │  │  └── index.tsx
+│  │  └── version-2
+│  │     └── index.tsx
+│  ├── project
+│  │  ├── v1
+│  │  │  └── index.tsx
+│  │  └── v2
+│  │     └── index.tsx
+│  ├── project-details
+│  │  └── v1
+│  │     └── index.tsx
+│  ├── service
+│  │  └── v1
+│  │     └── index.tsx
+│  ├── service-details
+│  │  └── v1
+│  │     └── index.tsx
+│  ├── statistics
+│  │  ├── v1
+│  │  │  └── index.tsx
+│  │  └── v2
+│  │     └── index.tsx
+│  ├── team
+│  │  ├── v1
+│  │  │  └── index.tsx
+│  │  └── v2
+│  │     └── index.tsx
+│  ├── testimonial
+│  │  ├── v1
+│  │  │  └── index.tsx
+│  │  └── v2
+│  │     └── index.tsx
+│  └── work-process
+│     └── v1
+│        ├── card
+│        │  └── index.tsx
+│        ├── cards-carousel
+│        │  └── index.tsx
+│        ├── text-slider
+│        │  └── index.tsx
+│        └── index.tsx
+├── themes
+│  └── interface.ts
+├── utils
+│  ├── aos
+│  │  └── index.tsx
+│  ├── set-staggered-delay.ts
+│  └── shadcn.ts
+└── .DS_Store
+
+
