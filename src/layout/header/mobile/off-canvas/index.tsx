@@ -19,7 +19,6 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaLinkedinIn,
 } from 'react-icons/fa6';
 
 const mainTitleClasses = cn(
@@ -62,19 +61,15 @@ const offCanvasProps: IOffCanvas = {
   socialLinks: [
     {
       icon: <FaFacebookF />,
-      href: 'https://www.facebook.com/',
-    },
-    {
-      icon: <FaLinkedinIn />,
-      href: 'https://www.linkedin.com/',
+      href: 'https://www.facebook.com/TecnoDespegueLive',
     },
     {
       icon: <FaTwitter />,
-      href: 'https://twitter.com/',
+      href: 'https://twitter.com/REPARO22',
     },
     {
       icon: <FaInstagram />,
-      href: 'https://www.instagram.com/',
+      href: 'https://www.instagram.com/tecnodespegue/',
     },
   ],
 };
