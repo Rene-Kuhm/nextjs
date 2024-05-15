@@ -14,8 +14,8 @@ export const teamSectionData: TeamSectionProps = {
     {
       slug: '#',
       image: {
-        src: '/assets/images/team/people-1.png',
-        alt: 'Brooklyn Simmons',
+        src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/a7ce5c4d-f519-4c42-090c-d35f33858800/rene',
+        alt: 'René Kuhm',
       },
       socials: [
         {

@@ -34,25 +34,25 @@ function Icon2() {
 export const aboutSectionData: AboutSectionProps = {
   images: {
     image1: {
-      src: '/assets/images/about/about-1.webp',
+      src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/8ea075e4-a182-4d42-8079-07727dddb100/public',
       alt: 'about one',
       width: 195,
       height: 132,
     },
     image2: {
-      src: '/assets/images/about/about-2.webp',
+      src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/3293d59d-9c4f-4987-eedf-1db0cabd0800/public',
       alt: 'about two',
       width: 312,
       height: 304,
     },
     image3: {
-      src: '/assets/images/about/about-3.webp',
+      src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/324ec0cf-23fe-4c20-b0b3-500bf904de00/public',
       alt: 'about three',
       width: 250,
       height: 265,
     },
     image4: {
-      src: '/assets/images/about/about-4.webp',
+      src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/f9c62adf-b618-4cb5-c294-35fdc2fa3000/public',
       alt: 'about four',
       width: 250,
       height: 265,

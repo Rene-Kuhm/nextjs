@@ -1,11 +1,13 @@
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    future: {
-      webpack5: true, // Habilita Webpack 5
-    },
+  images:{
+    domains: ['imagedelivery.net'],
+  },
     webpack: (config, { isServer }) => {
       if (!isServer) {
-        config.devtool = 'source-map';
+        // config.devtool = 'source-map';
         config.optimization.minimize = true; // Minimiza el código en producción
         config.optimization.splitChunks = {
           cacheGroups: {

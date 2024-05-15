@@ -6,7 +6,7 @@ export const contactSectionData: ContactSectionProps = {
     title: 'Libera el poder de la tecnología',
   },
   image: {
-    src: '/assets/images/contact/section-half-bg-1.png',
+    src: 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/66f59747-6cbf-4808-8e39-c6fc34152100/rene',
     alt: 'contact section background image',
   },
 };

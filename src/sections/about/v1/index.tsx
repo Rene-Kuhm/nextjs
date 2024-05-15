@@ -5,7 +5,8 @@ import { SectionHeading } from '@/src/components/section-heading';
 import { SectionHeadingWithoutStylingProps } from '@/src/components/section-heading/interface';
 import Image from 'next/image';
 
-import patternOne from 'public/assets/images/about/pattern-1.webp';
+const patternOne = 'https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/097cab15-06a3-419a-945c-99bae12ff900/public';
+
 
 export interface AboutSectionProps {
   images: {
@@ -78,12 +79,12 @@ export function AboutSection() {
 
                   {/* Pattern  */}
                   <Image
-                    src={patternOne.src}
+                    src={patternOne}
                     width={383}
                     height={246}
                     alt="pattern-1"
                     placeholder="blur"
-                    blurDataURL={patternOne.blurDataURL}
+                    blurDataURL={patternOne}
                     className="absolute bottom-[-55%] left-[42px] z-1  block object-cover"
                     data-aos="zoom-in"
                     data-aos-delay="250"

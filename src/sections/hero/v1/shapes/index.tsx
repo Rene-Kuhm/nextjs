@@ -90,7 +90,7 @@ export function Shapes() {
         data-aos-delay="450"
       >
         <Image
-          src="/assets/images/hero/shape-5.png"
+          src="https://imagedelivery.net/FwnKBv3V3A69-V54dDhTHA/27dfd1d9-9c1e-43c7-da03-67d145628600/rene"
           alt="hero bottom shape"
           width={1920}
           height={319}
